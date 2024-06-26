@@ -1,0 +1,230 @@
+<html>
+  <head>
+    <title>project2</title>
+   <meta charset="UTF-8">       
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta id="id" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"href= "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+ 
+
+  </head>
+  <body>
+
+    <!--header start-->
+<header>
+  <div class="flight-banner">
+            <div class="Flight_container">    
+             <nav class="navbar navbar-default">
+                  
+                   <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"  aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+               <h3 class="log">Travel Logo</h3>
+            </div>
+
+  
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="ban">
+                    <ul class="nav navbar-nav">
+                   
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">KWD<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                   <li><a href="#">USA</a></li>
+                   <li><a href="#">AUS</a></li>
+                   <li><a href="#">PAk</a></li>
+                  </ul>
+                  </li>
+           
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                   <li><a href="#">Spanish</a></li>
+                   <li><a href="#">French</a></li>
+                   <li><a href="#">Tamil</a></li>
+                 </ul>
+                 </li>
+     
+               
+                 <li class="manage"><a href="#" class="login_credintials">Manage Booking</a></li>
+                 <li class="login"><a href="#" class="login_credintials">signin / Register</a></li>
+                </ul>
+             </div>
+          </div>
+      
+      </nav> 
+
+           <div class="container">
+
+      <h2 class="Flight_details">Find the best flight for the right price</h2>
+  
+
+        <!--header end-->
+
+   
+<!-- Tabs navs -->
+<ul class="content nav nav-tabs mb-3" id="ex1" role="tablist"> <li class="nav-item" role="presentation"> <a data-mdb-tab-init class="nav-link active"
+      id="ex1-tab-1"href="#ex1-tabs-1" role="tab" aria-controls="ex1-tabs-1"aria-selected="true" ><i class="fa fa-plane"></i>Flights</a></li>
+  <li class="nav-item" role="presentation"> <a data-mdb-tab-init class="nav-link" id="ex1-tab-2" href="#ex1-tabs-2"  role="tab" aria-controls="ex1-tabs-2" aria-selected="false" ><i class="fa fa-hotel"></i>Hotels</a></li>
+</ul>
+<!-- Tabs navs -->
+
+  </div>
+  </div>
+  </header>
+
+                  <div class="radio-buttons">
+                  <div class= "radio-inline active" id="radio1">
+                   <button type="button" class="btn btn-light">One-Way</button>
+                   </div>
+
+
+                 <div class="radio-inline active" id="radio2">
+                  <button type="button" class="btn btn-light">Round trip</button>
+                   
+                 </div>
+
+                 <div class="radio-inline active" id="radio3">
+                    <button type="button" class="btn btn-light">Multi-city</button>
+                
+                 </div>
+             </div>
+          
+          <div class="container">
+            <div class="Travllers col-lg-12">
+
+              <div class="travel_details col-md-2"><span class="inter_flight">From</span><br><span class="flight_offers">Dubai</span><br><span class="inter_flight">DXB, Dubai International</span></div>
+              <div class="travel_details col-md-2"><span class="inter_flight">To</span><br><span class="flight_offers">Kuwait<br><span class="inter_flight">KWI, Kuwait International </span></div>
+              <div class="travel_details col-md-2"><p class="pickdate">Departure<input type="text" id="datepicker"></p></div>
+              <div class="travel_details col-md-2"><p class="datepick">Return <input type="text" id="datepicker1"></p></div>
+              <div class="travel_details col-md-3"><span class="inter_flight">Travellers&Class</span><br><span class="flight_offers">Travellers(1)<br><span class="inter_flight">Economy</span></div>
+              <div class="travel_detail col-md-1"><i class="fa fa-magnifying-glass"></i></div>
+            </div>
+          </div>
+
+          
+    <!--slider start-->
+                       
+          <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+           <ol class="carousel-indicators">
+           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="1"></li>
+           <li data-target="#myCarousel" data-slide-to="2"></li>
+           </ol>
+
+    <!-- Wrapper for slides -->
+           <div class="carousel-inner">
+             <div class="item active">
+                <img src="images/flightslide.png" class="flight-srch">
+            </div>
+
+             <div class="item">
+              <img src="images/flightslide.png" class="flight-srch">
+            </div>
+            <div class="item">
+         <img src="images/flightslide.png" class="flight-srch">
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!--slider end-->
+      
+
+
+<!--choose us start-->
+
+         <div class="container">
+          <h3 class="flight_choose section">Why Choose Us</h3>
+          <div class="flight_content col-lg-12">
+            <div class="custom_sech1 col-md-3"><img src="images/custom1.png"><h4 class="best_flight">Best price Guranatee</h4><p class="flight_price">Lorem ipsum dolor sit amet consectetur. Vitae imperdiet id amet lacus risus</p></div>
+            <div class="custom_sech2 col-md-3"><img src="images/custom2.png"><h4 class="best_flight">East & quick Booking</h4><p class="flight_price">Lorem ipsum dolor sit amet consectetur. Vitae imperdiet id amet lacus risus</p> </div>
+            <div class="custom_sech3 col-md-3"><img src="images/custom3.png"><h4 class="best_flight">Customer care 24/7</h4><p class="flight_price">Lorem ipsum dolor sit amet consectetur. Vitae imperdiet id amet lacus risus</p> </div>
+            <div class="custom_sech4 col-md-3"><img src="images/custom4.png"><h4 class="best_flight">Customer care 24/7</h4><p class="flight_price">Lorem ipsum dolor sit amet consectetur. Vitae imperdiet id amet lacus risus</p> </div>
+          </div>
+          </div>
+
+
+<!--choose us end-->
+
+
+<!--recommend hotels start-->
+
+    <div class="recommend_flight container">
+      <h3 class="flight_choose section">Recommended  Hotels</h3>
+      <div class="col-lg-12">
+       <div class="col-md-6">
+        <img src="images/flight1.png" class="img_flight">
+        <div class="text_content">Hilton Dubai Al Habtoor City<br>
+          <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(5)</span></div></div>
+
+        <div class="col-md-3">
+          <img src="images/flight2.png" class="img_flight1">
+          <div class="text_content">Majestic City Retreat Hotel<br><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(5)</span></div></div>
+
+        <div class="col-md-3">
+          <img src="images/flight3.png" class="img_flight1">
+          <div class="text_content">Majestic City Retreat Hotel<br><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(5)</span></div></div><br>
+
+        <div class="col-md-3">
+          <img src="images/flight4.png" class="img_flight1">
+          <div class="text_content">Majestic City Retreat Hotel<br><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(5)</span></div></div>
+
+        <div class="col-md-3">
+          <img src="images/flight5.png" class="img_flight1">
+          <div class="text_content">Majestic City Retreat Hotel<br><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><span>(5)</span></div></div>
+      </div>
+      </div>
+
+<!-- recommend hotes end-->
+
+
+  <!--section start-->
+       
+       <div class="container">
+       
+          <div class="flight_profile col-lg-12">
+            <div class="col-md-6">
+              <img src="images/profile.png" class="profile_section">
+            </div>
+            <div class="col-md-6"><span class="detailcontent">"</span>
+              <h2 class="content_news">We have some good news</h2>
+              <p class="content_offer">Sign up newsletter to receive all the offers ans discounts form us.<br>
+               discounts are only valid for our newsletter subscribers</p>
+                <img src="images/new2.png" class="hotel2">  
+            </div>
+            <img src="images/new1.png" class="hotel1"> 
+
+           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email id">
+           <button class="flight_subscribe">Subscribe</button><span class="detailcontents">"</span>
+ 
+          </div>
+       </div>
+  </body>
+</html>
+ <!--SECTION END-->
+
+
+
+
+
+
+
+
+
+
