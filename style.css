@@ -1,0 +1,327 @@
+# TRAVELOFLY
+<style>
+
+
+  .flight-banner{
+    background: url(./images/flighthotel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 300px;
+
+}
+a#ex1-tab-2{
+  color: #fff;
+}
+
+a#ex1-tab-1{
+  color: #fff;
+}
+  .navbar-nav {
+    float: right;
+    margin: 6px;
+    color: #fff;
+
+}
+.inter_flight{
+    font-size: 10px;
+    color: #b0a4a4;
+}
+.navbar-default .navbar-nav>li>a {
+  
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+
+}
+h2.Flight_details {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+ .Flight_container {
+    width: 100%;
+    height: 300px;
+    
+}
+div#bs-example-navbar-collapse-1 {
+    
+    border: none;
+ }
+  nav.navbar.navbar-default {
+    background: none;
+    border: none;
+
+}
+.Flight_container {
+    width: 100%;
+    height: 300px;
+   
+}
+h3.log {
+    color: #fff;
+    font-size: 26px;
+    margin: 16px 4px 19px 41px;
+    
+}
+
+ .navbar-default .navbar-nav>li>a:hover {
+    color: #000;
+  
+}
+.login_credintials{
+   border: 1px solid #ddd;
+    margin: 4px;
+    border-radius: 4px;
+   
+}
+.login_credintials:hover{
+  background: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    /* color: #000; */
+    background: #fff;
+}
+.nav-tabs {
+    border-bottom: none;
+    /* width: 100%; */
+}
+ul#ex1 {
+    position: relative;
+    left: 472px;
+    width: 48%;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+
+    text-decoration: none;
+    background-color: #0000;
+    color: #000;
+
+}
+h3.flight_choose.section {
+    /* font-family: Lexend; */
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0F294D;
+}
+.radio-buttons {
+    top: -48px;
+    position: relative;
+    /* background: none; */
+}
+button.btn.btn-light {
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+}
+.travel_details
+ {
+    border: 1px solid #ddd;
+   
+
+}
+
+.Travllers{
+
+    position: relative;
+    top: -38px;
+    background: #FFF;
+    padding: 0PX;
+} 
+input#datepicker,#datepicker1{
+    border: none;
+    padding: 0px;
+}
+img.flight-srch {
+    width: 100%;
+}
+.srch_flight
+ {
+    position: relative;
+    top: -94px;
+    width: 17%;
+}
+.flight_content{
+  margin-top: 26px;
+  padding-left: 0px;
+}
+.custom_sech1 {
+
+    background: #2C4A88;
+    border-radius: 7px;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    /* padding: 0px; */
+  
+}
+.custom_sech2{
+   
+    border-radius: 7px;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    background: #009B90;
+   
+}
+.custom_sech3{
+ 
+    border-radius: 7px;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    background: #F29930;
+
+}
+.custom_sech4{
+ 
+ 
+    border-radius: 7px;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    background: #F82A5A;
+
+}
+.recommend_flight.container
+ {
+    background: linear-gradient(95.1deg, #FAF3E2 2.76%, #F7FFEB 90.89%);
+    margin-top: 21px;
+    border-radius: 10px;
+}
+img.img_flight1 {
+    width: 100%;
+    height: 213px;
+
+}
+.text_content {
+    background: #fff;
+    width: 97%;
+    margin: 1px;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 12px;
+}
+.fa-star:before {
+    color: #FFCB45;
+    content: "\f005";
+    /* background: #FFCB45; */
+}
+.flight_profile.col-lg-12 {
+    margin-top: 26px;
+    background: linear-gradient(95.1deg, #E2F8FA 2.76%, #FFFCEA 90.89%);
+}
+h2.content_news {
+    margin-top: 65px;
+}
+img.profile_section {
+    margin: 20px;
+}
+h2.content_news {
+ font-family: Lexend;
+font-size: 28px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+p.content_offer {
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.form-control {
+    display: block;
+    width: 49%;
+    height: 34px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }
+ .flight_subscribe
+  {
+    float: right;
+    position: relative;
+    top: -32px;
+    right: 13px;
+    padding: 5px 23px;
+    background: #FFA33C;
+    border: none;
+    color: #000;
+    font-weight: 600;
+}
+.detailcontent{
+ 
+    
+    font-size: 24px;
+    font-family: Lexend;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFCB45;
+    bottom: 87px;
+    position: absolute;
+}
+
+.detailcontents {
+    font-family: Lexend;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    float: right;
+    position: relative;
+    top: -47px;
+    right: -77px;
+    color: #2C4A88;
+}
+.flight_offers {
+    font-weight: 700;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    font-size: 38px;
+    padding: 1px 23px 1px;
+   
+   
+}
+.travel_detail.col-md-1 {
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #FFA33B;
+}
+.carousel-indicators {
+    bottom: -14px;
+}
+.hotel1
+ {
+    float: right;
+    position: absolute;
+    right: 43px;
+}
+img.hotel2 {
+    float: right;
+    position: relative;
+    top: -32px;
+}
+
+</style>
